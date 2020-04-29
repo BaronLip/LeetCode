@@ -9,6 +9,7 @@ var levelOrder = function (root) {
         // queue places the root element in an array.
         const queue = [node];
 
+        // The iteration always starts at the initial loop invocation.
         while (queue.length > 0) {
             let length = queue.length;
 
